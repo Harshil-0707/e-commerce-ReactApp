@@ -27,15 +27,11 @@ const NavLinks = [
 export default function Navbar() {
   return (
     <>
-      <div className="bg-black text-white p-3 flex">
-        <div className="flex flex-10 justify-center">
-          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-          &nbsp;
-          <u>ShopNow</u>
-        </div>
-        <div className="flex-1">English</div>
+      <div className="bg-black text-white py-3 px-[clamp(1rem,4vw,3rem)] flex justify-between">
+        <div>Welcome to worldwide Megamart!</div>
+        <div>Deliver to 123456 | Track your order | All Offers</div>
       </div>
-      <nav className="flex items-center px-[5.5dvw] py-5">
+      <nav className="flex items-center px-[5.5dvw] py-5 border-b-[1px] border-b-[rgba(0,0,0,0.3)]">
         {/* Left: Logo */}
         <img src={logo} alt="logo" className="w-auto" />
 
