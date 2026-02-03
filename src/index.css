@@ -8,3 +8,7 @@
 :root {
     --footer-link-color: #ADB7BC;
 }
+
+div select {
+    appearance: none;
+}
