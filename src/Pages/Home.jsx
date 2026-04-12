@@ -3,6 +3,7 @@ import HeroSection from "../Components/HeroSection";
 import DealOfTheDay from "../Components/DealOfTheDay";
 import HighlightStrip from "../Components/HighlightStrip";
 import BrandSelectionSection from "../Components/BrandSelectionSection";
+import ShopFromTopCategorySection from "../Components/ShopFromTopCategorySection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HighlightStrip />
       <BrandSelectionSection />
       <DealOfTheDay />
+      <ShopFromTopCategorySection />
     </>
   );
 }
